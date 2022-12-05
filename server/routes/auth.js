@@ -1,7 +1,8 @@
+
+// IMPORTS 
 const express = require("express");
 const User = require("../models/user");
 const bcryptjs = require("bcryptjs");
-
 const authRouter = express.Router();
 
 authRouter.post("/api/signup", async function (req, res) {
