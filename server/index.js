@@ -14,6 +14,7 @@ const DB =
 // middleware
 // CLIENT -> middleware -> SERVER -> CLIENT
 app.use(express.json());
+// this basically initiates the post request from the server
 app.use(authRouter);
 
 // Connections
